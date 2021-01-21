@@ -9,22 +9,98 @@ body {
 }
 
 nav {
-  padding: 0% 10%;
   background-color: #0c325a;
+  padding: 1% 10%;
 }
 
-ul {
-  display: inline-block;
+nav::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 nav li {
+  font-size: 14px;
   text-transform: uppercase;
-  color: #FFF;
   display: inline-block;
   list-style: none;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .logo {
+  display: inline-block;
   padding-right: 50px;
+  vertical-align: middle;
+  width: 200px;
+}
+
+.nav-left {
+  display: inline-block;
+  padding-right: 170px;
+}
+
+.nav-right {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: #7cbb02;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#button-transp {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  padding: 10px 40px;
+}
+
+header {
+  padding: 0 10%;
+  padding-top: 50px;
+  background-color: #0c325a;
+  clear: both;
+  content: "";
+  display: table;
+  position: relative;
+  overflow: hidden;
+}
+
+header img {
+  width: 70%;
+  float: right;
+}
+
+.header-text {
+  margin-top: 100px;
+  font-size: 28px;
+  width: 55%;
+  color: #FFF;
+  position: absolute;
+}
+
+header .button {
+  margin-top: 40px;
+  padding: 20px 25px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.bar {
+  background-color: red;
+  height: 200px;
+}
+
+h2 {
+text-align: center;
 }
