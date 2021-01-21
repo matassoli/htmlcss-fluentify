@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  padding: 0% 10%;
+  background-color: #0c325a;
+}
+
+ul {
+  display: inline-block;
+}
+
+nav li {
+  text-transform: uppercase;
+  color: #FFF;
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.logo {
+  padding-right: 50px;
+}
