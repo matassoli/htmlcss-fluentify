@@ -13,6 +13,7 @@ nav {
   padding: 1% 6%;
 }
 
+/* clearfix nav bar */
 nav::after {
   clear: both;
   content: "";
@@ -59,12 +60,14 @@ nav li {
   text-transform: uppercase;
 }
 
+/* bottone trasparente */
 #button-transp {
   background-color: transparent;
   border: 1px solid #FFF;
   padding: 10px 40px;
 }
 
+/* clearfix header */
 header {
   background-color: #0c325a;
   clear: both;
@@ -94,6 +97,7 @@ header .button {
   padding: 20px 25px;
 }
 
+/* barra grigia + titoli */
 .bar {
   background-color: #d3d3d3;
   padding: 50px 0;
@@ -111,6 +115,7 @@ header .button {
   text-align: center;
 }
 
+/* flexbox sezione principale */
 section:first-of-type {
   border-bottom: 1px solid #d3d3d3;
   display: flex;
@@ -133,6 +138,7 @@ section:first-of-type {
   width: 50%;
 }
 
+/* titoli sezione 1 */
 section h2 {
   color: #7cbb02;
   font-size: 28px;
@@ -145,6 +151,7 @@ hr {
   width: 20%;
 }
 
+/* paragrafi sezione 1 */
 section p {
   color: #a0a0a0;
   display: inline-block;
@@ -154,6 +161,7 @@ section p {
   text-align: center;
 }
 
+/* flexbox sezione 2 */
 section:last-child {
   display: flex;
   height: 500px;
