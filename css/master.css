@@ -19,7 +19,7 @@ nav::after {
   display: table;
 }
 
-a {
+nav a {
   color: #FFF;
   text-decoration: none;
 }
@@ -111,20 +111,19 @@ header .button {
   font-size: 26px;
 }
 
-section {
-  padding: 0 6%;
+section:first-of-type {
+  border-bottom: 1px solid #d3d3d3;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #d3d3d3;
+  padding: 0 6%;
 }
 
 .col-l, .col-c, .col-r {
   margin-bottom: 50px;
-  float: left;
   width: 30%;
 }
 
-section img {
+.section-1 img {
   margin: 30px 0;
   height: 150px;
   display: block;
@@ -138,6 +137,7 @@ section h2 {
   color: #7cbb02;
   text-align: center;
   margin-bottom: 20px;
+  font-size: 28px;
 }
 
 hr {
@@ -145,7 +145,7 @@ hr {
    margin: auto;
 }
 
-section span {
+section p {
   display: inline-block;
   margin-top: 20px;
   color: #a0a0a0;
@@ -155,6 +155,28 @@ section span {
 }
 
 section:last-child {
-  background-color: #420dab;
+  display: flex;
   height: 500px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.section-2 img {
+  width: 40%;
+  margin-right: 100px;
+}
+
+.section-2-text h3, .section-2-text p {
+  width: 400px;
+  font-size: 30px;
+}
+
+.section-2-text p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.section-2 a {
+  margin-top: 20px;
+  display: block;
 }
