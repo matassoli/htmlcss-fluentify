@@ -99,12 +99,12 @@ header .button {
   padding: 50px 0;
 }
 
-h2 {
-  text-align: center;
+.bar h2 {
   font-size: 30px;
+  text-align: center;
 }
 
-h3 {
+.bar h3 {
   padding: 15px 0;
   text-align: center;
   color: #a0a0a0;
@@ -113,18 +113,48 @@ h3 {
 
 section {
   padding: 0 6%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .col-l, .col-c, .col-r {
-  width: 33%;
-  display: inline-block;
+  margin-bottom: 50px;
+  float: left;
+  width: 30%;
 }
 
 section img {
+  margin: 30px 0;
   height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   position: relative;
+}
+
+section h2 {
+  color: #7cbb02;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 20%;
+   margin: auto;
+}
+
+section span {
+  display: inline-block;
+  margin-top: 20px;
+  color: #a0a0a0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+section:last-child {
+  background-color: #420dab;
+  height: 500px;
 }
