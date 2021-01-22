@@ -8,20 +8,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* flexbox navbar */
 nav {
   background-color: #0c325a;
+  display: flex;
+  justify-content: space-between;
   padding: 1% 6%;
-}
-
-/* clearfix nav bar */
-nav::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.logo, .nav-right, .nav-left {
-  float: left;
 }
 
 nav a {
@@ -38,18 +30,19 @@ nav li {
 }
 
 .logo {
+  display: inline-block;
   padding-right: 50px;
-  width: 15%;
+  vertical-align: middle;
+  width: 180px;
 }
 
+/* correzioni allineamento navbar */
 .nav-left {
-  width: 45%;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 
 .nav-right {
-  width: 40%;
-  margin-top: 3px;
+  margin-top: 8px;
 }
 
 .button {
@@ -173,7 +166,6 @@ section:last-child {
 }
 
 .section-2 img {
-  padding: 40px 0;
   margin-right: 100px;
   width: 30%;
 }
@@ -229,4 +221,10 @@ footer .bar {
 footer .button {
   font-weight: normal;
   margin-left: 50px;
+}
+
+.button-help {
+  bottom: 0;
+  position: fixed;
+  right: 9%;
 }
