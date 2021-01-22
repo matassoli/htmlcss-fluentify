@@ -20,6 +20,10 @@ nav::after {
   display: table;
 }
 
+.logo, .nav-right, .nav-left {
+  float: left;
+}
+
 nav a {
   color: #FFF;
   text-decoration: none;
@@ -34,18 +38,18 @@ nav li {
 }
 
 .logo {
-  display: inline-block;
   padding-right: 50px;
-  vertical-align: middle;
-  width: 180px;
+  width: 15%;
 }
 
 .nav-left {
-  display: inline-block;
+  width: 45%;
+  margin-top: 8px;
 }
 
 .nav-right {
-  float: right;
+  width: 40%;
+  margin-top: 3px;
 }
 
 .button {
@@ -169,6 +173,7 @@ section:last-child {
 }
 
 .section-2 img {
+  padding: 40px 0;
   margin-right: 100px;
   width: 30%;
 }
